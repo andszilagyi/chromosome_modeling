@@ -1,3 +1,4 @@
+Repository for software described in
 # Evolution of linkage and genome expansion of protocells: the origin of chromosomes
 
 András Szilágyi (1,2,3); Viktor Péter Kovács (1); Eörs Szathmáry (1,2,3); Mauro Santos (1,4)
