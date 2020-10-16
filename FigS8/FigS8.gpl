@@ -1,0 +1,41 @@
+#set size ratio 0.71
+set termopt enhanced
+set terminal pngcairo size 768,1024 font ",10"
+set output "FigureS8.png"
+set multiplot layout 5,2
+set size ratio 0.71
+unset key
+wi=0.2
+wi2=0.375
+set xr [1.2:7.75]
+set yr [2.5:52.5]
+set xtics (" " 2, " " 3, " " 4, " " 5, " " 6, " " 7)
+set ytics (" " 10, " " 20, " " 30, " " 40, " " 50)
+set datafile missing "?";
+load "ylgnbu.pal"
+set cbrange [1:7]
+unset colorbox
+set origin 0,1-1*wi
+set size ratio .71
+plot "mu0E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat0.dat' lw 2 lc -1 w l
+set origin wi2,1-1*wi
+plot "mu1E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat1.dat' lw 2 lc -1 w l
+set origin 0,1-2*wi
+plot "mu2E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat2.dat' lw 2 lc -1 w l
+set origin wi2,1-2*wi
+plot "mu3E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat3.dat' lw 2 lc -1 w l
+set origin 0,1-3*wi
+plot "mu4E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat4.dat' lw 2 lc -1 w l
+set origin wi2,1-3*wi
+plot "mu5E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat5.dat' lw 2 lc -1 w l
+set origin 0,1-4*wi
+plot "mu6E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat6.dat' lw 2 lc -1 w l
+set origin wi2,1-4*wi
+plot "mu7E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat7.dat' lw 2 lc -1 w l
+set origin 0,1-5*wi
+plot "mu8E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat8.dat' lw 2 lc -1 w l
+set origin wi2+.03,1-5*wi
+set colorbox
+set xtics ("2" 2, "3" 3, "4" 4, "5" 5, "6" 6, "7" 7)
+set ytics ("10" 10, "20" 20, "30" 30, "40" 40, "50" 50)
+plot "empty.dat" u ($1+2):($2+5):3 matrix with image pixels

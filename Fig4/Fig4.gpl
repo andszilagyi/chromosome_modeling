@@ -1,0 +1,16 @@
+unset key
+set xr [1.2:7.75]
+set yr [2.5:52.5]
+set xtics 1,1,8
+set ytics 0,5,54
+set xlabel "Number of essential genes ({/:Italic D})"
+set ylabel "Split size ({/:Italic S})"
+set datafile missing "?";
+#load "ylorrd.pal"
+load "ylgnbu.pal"
+set cbrange [1:7]
+#set arrow 1 from 2,50 to 7,5 nohead
+set termopt enhanced
+set terminal png size 1024,768 font ",20"
+set output "Figure4.png"
+plot "mu0E-7.dat" u ($1+2):($2+5):3 matrix with image pixels, 'dat00.dat' lw 4 lc -1 w l

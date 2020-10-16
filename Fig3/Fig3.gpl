@@ -1,0 +1,13 @@
+set border 3 lw 2
+set xtics nomirror
+set ytics nomirror
+set xtics out
+set ytics out
+set xlabel 'Split size ({/:Italic S})'
+set ylabel 'Fitness ({/:Italic w})'
+load "dark2.pal"
+set termopt enhanced
+set term png size 1024,768 font ",20"
+set output 'Figure3.png'
+plot 'fitness_SD_D3.dat' title '{/:Italic D}=3' lw 3 w l,  'fitness_SD_D5.dat' title '{/:Italic D}=5' lw 3 w l
+
