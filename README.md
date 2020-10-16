@@ -22,7 +22,10 @@ Note: The code available from this repository is provided without any warranty o
 
 There are two compile time `#define`-able code options `FEATURE_NO_MUT` for no mutation and `FEATURE_NO_ASSORT` for a decreased assortment load, giving a total of 4 valid combinations. It's possible to choose between various predefined replication activities stored in the `replaTbl` table.
 
+To build the program under linux or any compatible system using the GCC toolchain, issue the command `make` in the source directory.
+
 The command line has the following parameters in this fixed order: `D SD mu randomSeed`
+(For the meaning of these parameters, please see the model description in the article.)
 
 If the command line is empty, the default values are the following:
 ```
