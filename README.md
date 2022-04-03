@@ -1,17 +1,17 @@
 Repository for software described in
 # Evolution of linkage and genome expansion of protocells: the origin of chromosomes
 
-András Szilágyi (1,2,3); Viktor Péter Kovács (1); Eörs Szathmáry (1,2,3); Mauro Santos (1,4)
+András Szilágyi<sup>1,2,3</sup>; Viktor Péter Kovács<sup>1</sup>; Eörs Szathmáry<sup>1,2,3</sup>; Mauro Santos<sup>1,4</sup>
 
-1. Institute of Evolution, Centre for Ecological Research, 8237 Tihany, Hungary
+<sup>1</sup>Institute of Evolution, Centre for Ecological Research, 8237 Tihany, Hungary
 
-2. Department of Plant Systematics, Ecology and Theoretical Biology, Eötvös Loránd University, 1117 Budapest, Hungary
+<sup>2</sup>Department of Plant Systematics, Ecology and Theoretical Biology, Eötvös Loránd University, 1117 Budapest, Hungary
 
-3. Center for the Conceptual Foundations of Science, Parmenides Foundation, 82049 Pullach/Munich, Germany
+<sup>3</sup>Center for the Conceptual Foundations of Science, Parmenides Foundation, 82049 Pullach/Munich, Germany
 
-4. Grup de Genòmica, Bioinformàtica i Biologia Evolutiva (GGBE), Departament de Genètica i de Microbiologia, Universitat Autonòma de Barcelona, Bellaterra, Barcelona, Spain
+<sup>4</sup>Grup de Genòmica, Bioinformàtica i Biologia Evolutiva (GGBE), Departament de Genètica i de Microbiologia, Universitat Autonòma de Barcelona, Bellaterra, Barcelona, Spain
 
-Szilágyi A, Kovács VP, Szathmáry E, Santos M (2020) Evolution of linkage and genome expansion in protocells: The origin of chromosomes. PLOS Genetics 16(10): e1009155. https://doi.org/10.1371/journal.pgen.1009155
+Szilágyi A, Kovács VP, Szathmáry E, Santos M (2020) Evolution of linkage and genome expansion in protocells: The origin of chromosomes. *PLOS Genetics* **16**(10): e1009155. https://doi.org/10.1371/journal.pgen.1009155
 
 Note: The code available from this repository is provided without any warranty or liability.
 
